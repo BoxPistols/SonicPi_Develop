@@ -1,6 +1,7 @@
 live_loop :guit do
   with_fx :echo, mix: 0.3, phase: 0.25 do
     sample :guit_em9, rate: 0.5
+    synth :prophet, note: :e1, release: 8, cutoff: 100
   end
   #  sample :guit_em9, rate: -0.5
   sleep 8
