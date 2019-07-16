@@ -9,5 +9,5 @@ live_loop :boom do
   with_fx :reverb, room: 1 do
     sample :bd_boom, amp: 10, rate:.9
   end
-  sleep 4
+  sleep 12
 end
