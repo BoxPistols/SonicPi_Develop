@@ -1,13 +1,18 @@
 live_loop :guit do
- with_fx :echo, mix: 0.3, phase: 0.25 do
-   sample :guit_em9, rate: 0.5
- end
-#  sample :guit_em9, rate: -0.5
- sleep 8
+  with_fx :echo, mix: 0.3, phase: 0.25 do
+    sample :guit_em9, rate: 0.5
+  end
+  #  sample :guit_em9, rate: -0.5
+  sleep 8
 end
 live_loop :boom do
- with_fx :reverb, room: 1 do
-   sample :bd_boom, amp: 10, rate: 1
- end
- sleep 8
+  with_fx :reverb, room: 1 do
+    sample :bd_boom, amp: 10, rate: 1
+  end
+  sleep 8
 end # Loading previous buffer contents. Please wait...
+
+live_loop :midi_piano do
+  note, velocity = sync "/midi/nanokey2_keyboard/0/1/note_on"
+  synth :piano, note: note
+end 
