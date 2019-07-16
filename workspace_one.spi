@@ -3,4 +3,6 @@
 live_loop :midi_piano do
   note, velocity = sync "/midi/nanokey2_keyboard/0/1/note_on"
   synth :piano, note: note
-end 
+end
+
+c_message "Hello Minecraft from Sonic Pi!" 
