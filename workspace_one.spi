@@ -1,8 +1,1 @@
-# Welcome to Sonic Pi v3.1
-
-live_loop :midi_piano do
-  note, velocity = sync "/midi/nanokey2_keyboard/0/1/note_on"
-  synth :piano, note: note
-end
-
-mc_message "Hello Minecraft from Sonic Pi!"
+ynth :prophet, note: :e1, release: 8, cutoff: 100 
