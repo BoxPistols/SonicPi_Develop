@@ -1,1 +1,1 @@
-synth :prophet, note: :e1, release: 8, cutoff: 100
+##| synth :prophet, note: :e1, release: 8, cutoff: 100
