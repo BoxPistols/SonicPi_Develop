@@ -1,18 +1,16 @@
 live_loop :midi_piano do
+ use_real_time
   note, velocity = sync "/midi/nanokey_keyboard/0/1/note_on"
-  synth :piano, note: note, amp: velocity / 127.0
-
+   synth :piano, note: note, amp: velocity / 127.0
+end
 
 with_fx :reverb, room: 1 do
   live_audio :moog
 end
 
 midi_note_on :e3, port: "moog_minitaur", channel: 5
-
 live_loop :moog_trigger do
   use_real_time
   midi (octs :e1, 3).tick, sustain: 0.1
   sleep 0.125
-end
-
 end
