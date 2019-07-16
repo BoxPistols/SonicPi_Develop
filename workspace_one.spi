@@ -5,4 +5,4 @@ live_loop :midi_piano do
   synth :piano, note: note
 end
 
-c_message "Hello Minecraft from Sonic Pi!" 
+mc_message "Hello Minecraft from Sonic Pi!"
