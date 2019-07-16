@@ -15,4 +15,12 @@ end # Loading previous buffer contents. Please wait...
 live_loop :midi_piano do
   note, velocity = sync "/midi/nanokey2_keyboard/0/1/note_on"
   synth :piano, note: note, amp: velocity / 127.0
-end 
+end
+
+s = play 60, release: 5
+sleep 0.5
+control s, note: 65
+sleep 0.5
+control s, note: 67
+sleep 3
+control s, note: 72 
