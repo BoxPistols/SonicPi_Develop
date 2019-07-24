@@ -1,4 +1,4 @@
-use_bpm 90
+use_bpm 30
 
 live_loop :flibble do
   
