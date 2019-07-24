@@ -1,5 +1,11 @@
 use_bpm 45
 
+live_loop :guit do
+  with_fx :echo, mix: 0.3, phase: 0.25 do
+    sample :guit_em9, rate: 0.5
+  end
+end
+
 live_loop :flibble do
   sample :ambi_choir, rate: 0.2
   sample :bd_haus, rate: 0.5, amp: 0.5
@@ -13,13 +19,8 @@ live_loop :flibble do
   sample :ambi_choir, rate: 0.8, amp: 1.5
   sample :bd_haus, rate: 2
   
-  live_loop :guit do
-    with_fx :echo, mix: 0.3, phase: 0.25 do
-      sample :guit_em9, rate: 0.5
-    end
-   end 
-    sleep 0.5
-    sample :ambi_choir, rate: 0.2
-    sample :bd_haus, rate: 2, amp: 0
-    sleep 0.25
-  end
+  sleep 0.5
+  sample :ambi_choir, rate: 0.2
+  sample :bd_haus, rate: 2, amp: 0
+  sleep 0.25
+end
