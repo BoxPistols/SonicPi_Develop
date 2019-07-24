@@ -1,5 +1,7 @@
+use_bpm 90
+
 live_loop :flibble do
-  use_bpm 90
+  
   sample :ambi_choir, rate: 0.328
   sample :bd_haus, rate: 0.5
   sleep 0.25
