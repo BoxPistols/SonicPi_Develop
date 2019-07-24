@@ -24,7 +24,7 @@ live_loop :flibble do
   sleep 0.5
   
   with_fx :echo, mix: 0.2, phase: 0.25 do
-    sample :guit_em9, rate: 0.55, amp: 0.5
+    sample :guit_em9, rate: 0.50, amp: 0.5
   end
   
   sample :ambi_choir, rate: 0.2
