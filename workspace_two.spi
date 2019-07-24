@@ -4,7 +4,7 @@ use_bpm 45
 live_loop :flibble do
   
   with_fx :echo, mix: 0.45, phase: 0.45 do
-    sample :guit_cm9, rate: 0.66, amp: 0.5
+    sample :guit_dm9, rate: 0.66, amp: 0.5
   end
   
   sample :ambi_choir, rate: 0.2
