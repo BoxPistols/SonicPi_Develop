@@ -6,7 +6,7 @@ live_loop :flibble do
     sample :guit_em9, rate: 0.75, amp: 0.7
   end
   
-  paly chord(:c4, :major7)
+  play chord(:c4, :major7)
   sample :ambi_choir, rate: 0.3
   sample :bd_haus, rate: 0.5, amp: 0.5
   sleep 1.25
