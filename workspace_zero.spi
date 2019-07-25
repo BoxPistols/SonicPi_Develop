@@ -5,13 +5,13 @@ live_loop :guit do
     
   end
   #  sample :guit_em9, rate: -0.5
-  sleep 2
+  sleep 6
 end
 live_loop :boom do
   with_fx :reverb, room: 0.5 do
     sample :bd_boom, amp: 10, rate: 1
   end
-  sleep 2
+  sleep 6
 end # Loading previous buffer contents. Please wait...
 
 live_loop :midi_piano do
