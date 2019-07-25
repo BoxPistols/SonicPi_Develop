@@ -20,7 +20,8 @@ live_loop :midi_piano do
 end
 
 with_fx :reverb do |r|
- 6 sleep 0.5
+  play 20
+  sleep 0.5
   control r, mix: 0.7
   play 55
   sleep 1
