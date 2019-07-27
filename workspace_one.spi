@@ -8,5 +8,5 @@ live_loop :noise do
   
   sample :glitch_bass_g, rate: 0.4, amp: 0.5
   sleep 1
-  ##| stop
+  stop
 end
