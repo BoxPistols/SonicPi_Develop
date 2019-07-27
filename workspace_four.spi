@@ -8,10 +8,10 @@ live_loop :loop do
   sleep 0.5
   
   use_synth :blade
-  play :C3
+  play :C4
   sleep 0.25
   
-  play :E4
+  play :E5
   sleep 0.5
 end
 
