@@ -13,5 +13,5 @@ live_loop :flibble3 do
   
   play :D2, amp: 0.5
   sleep 1
-  
+  stop
 end
