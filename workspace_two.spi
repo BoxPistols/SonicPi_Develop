@@ -16,10 +16,10 @@ live_loop :flibble2 do
     sleep 0.25
     
     play chord(:F4, :maj9), amp: 0.7
-    play :F2, amp: 0.2    
+    play :F2, amp: 0.2
     sleep 0.5
     
-    ##| stop
+    stop
   end
   
   ##| 4.times do
