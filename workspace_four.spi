@@ -5,7 +5,6 @@ live_loop :flibble3 do
   1.times do
     play chord(:A3, :maj9), amp: 0.7
     sleep 0.25
-    stop
   end
   
   1.times do
