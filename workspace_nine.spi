@@ -3,14 +3,15 @@ use_bpm 60
 live_loop :flibble2 do
   
   3.times do
-  with_fx :echo, mix: 0.2, phase: 0.6 do
-    sample :guit_am5, rate: 0.60, amp: 0.7
-    play chord(:c4, :major7), rate: 0.5
+    with_fx :echo, mix: 0.2, phase: 0.6 do
+      sample :guit_am5, rate: 0.60, amp: 0.7
+      play chord(:c4, :major7), rate: 0.5
+    end
+    
+    sleep 2
   end
   
-  sleep 2
-  end
-  
+  3.times do
   
   with_fx :echo, mix: 0.2, phase: 0.6 do
     sample :guit_am5, rate: 0.60, amp: 0.7
@@ -18,6 +19,6 @@ live_loop :flibble2 do
   end
   
   sleep 2
-  
+ end 
   
 end
