@@ -1,7 +1,7 @@
 # 01-BassDrum
 
 live_loop :flibble do
-  use_bpm 60
+  use_bpm 30
   
   4.times do
     sample :bd_haus, rate: 0.2, amp: 1
