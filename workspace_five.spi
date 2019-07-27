@@ -2,6 +2,6 @@ live_loop :flibble3 do
   use_bpm 60
   
   ##| sample :bd_808, rate: 1
-  play :c3, amp: 0.5
+  play :C2, amp: 0.5
   sleep 1
 end
