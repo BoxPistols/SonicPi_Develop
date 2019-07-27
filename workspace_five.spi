@@ -1,8 +1,6 @@
 live_loop :flibble3 do
-    use_synth :tb303
   use_bpm 60
-  
-
-  sample :bd_808, rate: 0.8
+   
+  sample :bd_808, rate: 0.8, amp: 1
   sleep 1
 end
