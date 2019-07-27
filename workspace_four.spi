@@ -8,7 +8,7 @@ live_loop :loop do
   sleep 0.5
   
   use_synth :blade
-  play :C5
+  play :Cb5
   sleep 0.25
   
   play :E5
