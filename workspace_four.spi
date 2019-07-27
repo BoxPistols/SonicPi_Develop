@@ -3,6 +3,6 @@ live_loop :flibble2 do
   use_bpm 60
   
   play chord(:A4, :m)
-  sleep 1
+  sleep 2
   
 end
