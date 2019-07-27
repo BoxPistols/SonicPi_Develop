@@ -7,11 +7,11 @@ live_loop :flibble do
     sample :bd_haus, rate: 0.1, amp: 0.6
     sleep 0.5
     ##| stop
-    1.times do
-      sample :drum_cymbal_closed, rate: 0.25, amp: 0.3
-      sleep 0.25/2*2
-      stop
-    end
+    
+    ##| 1.times do
+    ##|   sample :drum_cymbal_closed, rate: 0.25, amp: 0.3
+    ##|   sleep 0.25/2*2
+    ##| end
     
     1.times do
       
