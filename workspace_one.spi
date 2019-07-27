@@ -4,7 +4,6 @@
 ##|   synth :piano, note: note, amp: velocity / 127.0
 ##| end
 
-
 live_loop :noise do
   use_bpm 60
   
