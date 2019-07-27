@@ -8,4 +8,3 @@ live_loop :loop do
   play :Eb4
   sleep 1
 end
- 
