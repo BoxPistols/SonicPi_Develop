@@ -1,7 +1,7 @@
 live_loop :flibble do
   use_bpm 60
   sample :bd_808, rate: 1
-  sample :bd_house, rate: 1
+  sample :bd_haus, rate: 1
   
   sleep 0.5
 end
