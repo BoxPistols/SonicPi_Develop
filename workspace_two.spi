@@ -31,9 +31,9 @@ live_loop :flibble2 do
   sample :bd_haus, rate: 2
   sleep 1.5
   
-  with_fx :echo, mix: 0.2, phase: 0.25 do
-    sample :guit_em9, rate: 0.75 / 0.75, amp: 0.7
-  end
+  ##| with_fx :echo, mix: 0.2, phase: 0.25 do
+  ##|   sample :guit_em9, rate: 0.75 / 0.75, amp: 0.7
+  ##| end
   
   sample :ambi_choir, rate: 0.2
   sample :bd_haus, rate: 2, amp: 0
