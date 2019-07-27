@@ -8,7 +8,7 @@ live_loop :flibble do
     sleep 0.5
     
     2.times do
- 
+      
       sample :drum_cymbal_closed
       sleep 0.25/2
     end
@@ -24,13 +24,13 @@ live_loop :flibble do
     
   end
   
-  1.times do
-    4.times do
-      sample :bd_haus, rate: 0.2, amp: 0.3
-      sleep 0.25/2
+  ##| 1.times do
+  ##|   4.times do
+  ##|     sample :bd_haus, rate: 0.2, amp: 0.3
+  ##|     sleep 0.25/2
       
-      sample :bd_haus, rate: 0.2, amp: 0.4
-      sleep 0.25/2
-    end
-  end
+  ##|     sample :bd_haus, rate: 0.2, amp: 0.4
+  ##|     sleep 0.25/2
+  ##|   end
+  ##| end
 end
