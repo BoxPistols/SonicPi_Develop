@@ -5,12 +5,12 @@ live_loop :loopSub  do
   use_synth :fm
   use_bpm 30
   
-  play :G3 
+  play :G3
   sleep 0.25
   
   use_synth :blade
   play :C3
-  play :C5
+  play :C5 amp: 0.5
   sleep 0.25
   
 end
