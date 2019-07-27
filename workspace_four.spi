@@ -1,6 +1,7 @@
 live_loop :loop do
-  use_bpm 60
   use_synth
+  use_bpm 60
+  
   play :A3
   sleep 0.5
   play :C3
