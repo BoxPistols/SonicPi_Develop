@@ -10,12 +10,12 @@ live_loop :loop do
   play :C2
   sleep 0.25
   
-  ##| sleep 0.25
   play :A3
   sleep 0.25
   
   play :E3
   sleep 0.25
+  
   
   use_synth :blade
   play :C3
@@ -26,7 +26,8 @@ live_loop :loop do
   play :A3
   sleep 0.25
   
-  
+   use_synth :fm
+ 
   play :F3
   sleep 0.25
   
