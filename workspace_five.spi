@@ -3,5 +3,5 @@ live_loop :flibble3 do
   
   ##| sample :bd_808, rate: 1
   play :C2, amp: 0.5
-  sleep 1
+  sleep 4
 end
