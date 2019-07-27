@@ -9,7 +9,7 @@ live_loop :loopSub  do
   sleep 0.25
   
   use_synth :fm
-  play :C3, amp: 0.15
+  play :C3, amp: 0.015
   play :A5, amp: 0.15
   play :G5, amp: 0.15
   sleep 0.25
