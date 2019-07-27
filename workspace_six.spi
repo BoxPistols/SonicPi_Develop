@@ -1,4 +1,6 @@
 live_loop :trigger do
+    use_bpm 60
+
   with_fx :flanger do
     use_real_time
     a, b, c = sync "/osc/trigger/synth"
