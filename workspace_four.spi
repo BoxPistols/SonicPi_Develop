@@ -5,6 +5,6 @@ loop do
   sleep 0.5
   play :C3
   sleep 0.5
-  play :Eb3
-  
+  play :Eb4
+ sleep 1 
 end
