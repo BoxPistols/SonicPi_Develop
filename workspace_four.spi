@@ -1,6 +1,6 @@
 # 05-Option
 live_loop :flibble2 do
-  use_bpm 60
+  use_bpm 120
   
   sample :bd_haus, rate: 0.2, amp: 0.3
   sleep rrand(0.1, 0.5)
