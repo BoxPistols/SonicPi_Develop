@@ -4,6 +4,8 @@ live_loop :loop do
   
   play :A3
   sleep 0.5
+  play :A3
+  sleep 0.5
   
   use_synth :blade
   play :C3
