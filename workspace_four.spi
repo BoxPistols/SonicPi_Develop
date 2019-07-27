@@ -29,6 +29,7 @@ live_loop :loop do
   use_synth :fm
   
   play :F3
+  play :F5
   sleep 0.25
   
   use_synth :blade
