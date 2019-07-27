@@ -12,7 +12,7 @@ live_loop :guit do
 end
 live_loop :boom do
   with_fx :reverb, room: 1 do
-    sample :bd_boom, amp: 10, rate: 1
+    sample :bd_boom, amp: 5, rate: 1
   end
   sleep 8
 end # Loading previous buffer contents. Please wait...
