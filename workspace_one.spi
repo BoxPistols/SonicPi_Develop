@@ -1,13 +1,8 @@
-##| live_loop :midi_piano do
-##|   ##| use_real_time
-##|   note, velocity = sync "/midi/nanokey_keyboard/0/1/note_on"
-##|   synth :piano, note: note, amp: velocity / 127.0
-##| end
 
 live_loop :noise do
   use_bpm 60
   
-  ##| sample :bass_dnb_f, rate: 0.2
-  ##| sleep 1
+  sample :bass_dnb_f, rate: 0.2
+  sleep 1
   
 end
