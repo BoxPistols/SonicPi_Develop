@@ -1,5 +1,5 @@
 live_loop :flibble3 do
-  use_bpm 30
+  use_bpm 60
   
   ##| sample :bd_808, rate: 1
   16.times do
