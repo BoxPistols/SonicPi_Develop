@@ -19,7 +19,7 @@ live_loop :flibble2 do
     play :F2, amp: 0.15
     sleep 0.5
     
-    stop
+    ##| stop
   end
   
   ##| 4.times do
