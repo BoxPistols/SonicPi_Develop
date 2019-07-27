@@ -4,6 +4,9 @@ live_loop :flibble2 do
   use_bpm 30/2
   
   1.times do
+    
+    play :A2, amp: rrand(0.5, 0.8)
+  
     play chord(:A2, :madd9), amp: 0.8
     sleep 0.5
     
