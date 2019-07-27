@@ -1,4 +1,4 @@
-live_loop :loop  do
+live_loop :loop2  do
   use_bpm 30
   
   use_synth :fm
