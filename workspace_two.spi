@@ -19,6 +19,7 @@ live_loop :loop  do
   sleep 0.25
   
   play :E3
+  play :A5
   sleep 0.25
   
   use_synth :blade
