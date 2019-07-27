@@ -5,7 +5,7 @@ live_loop :flibble3 do
   play :A2, amp: 0.5
   sleep 1
   
-  play :D2, amp: 0.5
+  play :D3, amp: 0.5
   sleep 1
   
   play :G2, amp: 0.5
