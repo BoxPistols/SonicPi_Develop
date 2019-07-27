@@ -5,8 +5,8 @@ live_loop :flibble2 do
   
   1.times do
     
-    play :A2, amp: 0.1
     play chord(:A2, :madd9), amp: 0.8
+    play :A2, amp: 0.05 
     sleep 0.5
     
     play chord(:A3, :m9), amp: 0.7
