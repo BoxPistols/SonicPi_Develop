@@ -7,12 +7,9 @@ live_loop :flibble2 do
     play chord(:c4, :major7), rate: 0.5
   end
   
-  
   sample :ambi_choir, rate: 0.3
   sample :bd_haus, rate: 0.5, amp: 0.5
   sleep 1.5
   
-  sample :bd_haus, rate: 0.5, amp: 0.5
-  sleep 0.5
-  
+  \
 end
