@@ -1,41 +1,58 @@
-use_bpm 60
-
-live_loop :flibble2 do
+live_loop :loop do
+  use_synth :fm
+  use_bpm 30
   
-  with_fx :echo, mix: 0.2, phase: 0.6 do
-    sample :guit_am5, rate: 0.60, amp: 0.7
-    play chord(:c4, :major7), rate: 0.5
-  end
+  play :E3
   
-  
-  sample :ambi_choir, rate: 0.3
-  sample :bd_haus, rate: 0.5, amp: 0.5
-  sleep 1.25
-  
-  sample :bd_haus, rate: 0.5, amp: 0.5
-  sleep 0.5
-  
-  sample :ambi_choir, rate: 0.28
-  sample :bd_haus, rate: 0.5
-  sleep 1.5
-  
-  sample :ambi_choir, rate: 0.2
-  sample :bd_haus, rate: 2, amp: 0.5
-  sleep 1.25
-  
-  
-  sample :bd_haus, rate: 0.4, amp: 0.5
-  sleep 0.5
-  
-  sample :ambi_choir, rate: 0.5, amp: 1.2
-  sample :bd_haus, rate: 2
-  sleep 1.5
-  
-  ##| with_fx :echo, mix: 0.2, phase: 0.25 do
-  ##|   sample :guit_em9, rate: 0.75 / 0.75, amp: 0.7
-  ##| end
-  
-  sample :ambi_choir, rate: 0.2
-  sample :bd_haus, rate: 2, amp: 0
   sleep 0.25
+  
+  use_synth :blade
+  play :C3
+  play :C2
+  sleep 0.25
+  
+  play :A3
+  sleep 0.25
+  
+  play :E3
+  sleep 0.25
+  
+  use_synth :blade
+  play :C3
+  play :C4
+  sleep 0.25
+  
+  sleep 0.25
+  play :A3
+  sleep 0.25
+  
+  use_synth :fm
+  
+  play :F3
+  sleep 0.25
+  
+  use_synth :blade
+  play :C3
+  play :C2
+  sleep 0.25
+  
+  sleep 0.25
+  play :A3
+  sleep 0.25
+  
+  use_synth :fm
+  
+  play :F3
+  sleep 0.25
+  
+  use_synth :blade
+  play :C3
+  play :D4
+  sleep 0.25
+  
+  sleep 0.25
+  play :A4
+  sleep 0.25
+  
 end
+
