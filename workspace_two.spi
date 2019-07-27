@@ -1,6 +1,6 @@
 use_bpm 120
 
-live_loop :flibble do
+live_loop :flibble2 do
   
   with_fx :echo, mix: 0.2, phase: 0.6 do
     sample :guit_am5, rate: 0.60, amp: 0.7
