@@ -11,8 +11,8 @@ live_loop :flibble3 do
   
   8.times do
     play :F2, amp: rrand(0.5, 0.8)
-    play :F3, amp: rrand(0.2, 0.5)
+    play :F3, c
     sleep 0.25*2
   end
-  stop
+  ##| stop
 end
