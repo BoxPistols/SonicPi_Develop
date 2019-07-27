@@ -5,7 +5,6 @@ live_loop :loop  do
   
   
   use_synth :fm
-  use_bpm 30
   
   play :E3, amp: 1.5
   
