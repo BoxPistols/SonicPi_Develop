@@ -5,9 +5,12 @@ live_loop :flibble2 do
   4.times do
     play chord(:A3, :madd9)
     sleep 0.5
+    
     play chord(:A3, :madd9)
     sleep 0.25
     
+    play chord(:F3, :maj9)
+    sleep 0.25
   end
   
   ##| 4.times do
