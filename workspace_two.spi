@@ -34,7 +34,7 @@ live_loop :loop  do
   play :F3
   sleep 0.25
   
-  use_synth :tb303
+  use_synth :blade
   play :C3
   play :C2
   sleep 0.25
