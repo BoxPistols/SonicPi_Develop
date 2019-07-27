@@ -1,6 +1,6 @@
 # 05-Option
 live_loop :flibble2 do
-  use_bpm 15
+  use_bpm 30
   
   1.times do
     play chord(:A2, :madd9)
