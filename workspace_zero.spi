@@ -4,9 +4,9 @@ live_loop :flibble do
   use_bpm 60
   
   1.times do
-    sample :bd_haus, rate: 0.15, amp: 0.6
-    sleep 0.5
-    ##| stop
+    ##| sample :bd_haus, rate: 0.15, amp: 0.6
+    ##| sleep 0.5
+    ##| ##| stop
     
     1.times do
       sample :drum_cymbal_closed, rate: 0.25, amp: 0.3
