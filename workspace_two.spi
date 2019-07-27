@@ -36,7 +36,7 @@ live_loop :loop  do
   
   use_synth :blade
   play :C3
-  play :C2
+  play :G2
   sleep 0.25
   
   sleep 0.25
