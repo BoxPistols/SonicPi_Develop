@@ -1,3 +1,4 @@
 live_loop :flibble3 do
   sample :bd_808, rate: 0.8
+  sleep 1
 end
