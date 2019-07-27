@@ -31,7 +31,7 @@ live_loop :loop do
   play :F3
   sleep 0.25
   
-  use_synth :chiplead
+  use_synth :cnoise
   play :C3
   play :C2
   sleep 0.25
