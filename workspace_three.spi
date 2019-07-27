@@ -11,7 +11,7 @@ live_loop :loopSub  do
   use_synth :fm
   play :C3, amp: 0.015
   play :A5, amp: 0.015
-  play :G5, amp: 0.15
+  play :G5, amp: 0.015
   sleep 0.25
   ##| stop
 end
