@@ -1,7 +1,6 @@
 live_loop :loop do
   use_bpm 60
-  
-  play :Ab3
+  play :A#3
   sleep 0.5
   play :C3
   sleep 0.5
