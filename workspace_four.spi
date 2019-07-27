@@ -6,6 +6,6 @@ live_loop :loop do
   sleep 0.5
   play :C3
   sleep 0.5
-  play :Eb4
+  play :E4
   sleep 0.5
 end
