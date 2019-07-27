@@ -1,8 +1,10 @@
-use_bpm 80
-
-play :Ab3
-sleep 1.0
-play :C3
-sleep 1.0
-play :Eb3
- 
+loop do
+  use_bpm 80
+  
+  play :Ab3
+  sleep 0.5
+  play :C3
+  sleep 0.5
+  play :Eb3
+  
+end
