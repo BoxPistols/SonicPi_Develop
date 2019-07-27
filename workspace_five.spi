@@ -1,8 +1,0 @@
-live_loop :loop2  do
-  use_bpm 30
-  
-  use_synth :fm
-  
-  play :E3, amp: 1.5
-  sleep :1
-end
