@@ -1,5 +1,5 @@
 live_loop :loop do
-  use_synth
+  use_synth :beep
   use_bpm 60
   
   play :A3
