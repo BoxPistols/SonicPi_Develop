@@ -2,12 +2,12 @@
 live_loop :flibble3 do
   use_bpm 30
   
-  ##| 1.times do
+  1.times do
   
-  ##|   play chord(:F3, :maj9), amp: 0.7
-  ##|   sleep 0.25
-  ##|   ##| stop
-  ##| end
+  play chord(:F3, :maj9), amp: 0.7
+  sleep 0.25
+  stop
+  end
   
   1.times do
     play chord(:F3, :maj9), amp: 0.7
