@@ -6,5 +6,9 @@ live_loop :flibble3 do
     play :A2, amp: 0.8
     sleep 0.25
   end
+  4.times do
+    play :D2, amp: 0.8
+    sleep 0.25
+  end
   
 end
