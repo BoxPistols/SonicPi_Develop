@@ -1,4 +1,4 @@
-live_loop loop do
+live_loop :loop do
   use_bpm 80
   
   play :Ab3
