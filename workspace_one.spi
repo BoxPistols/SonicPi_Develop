@@ -4,6 +4,9 @@ live_loop :noise do
   use_bpm 60
   
   sample :bass_dnb_f, rate: 0.2
-  sleep 1
+  sleep 0.5
+  
+  sample :sn_dolf 0.2
+  sleep 0.5
   
 end
