@@ -1,3 +1,4 @@
 # Welcome to Sonic Pi v3.1
 play :Ab3
+play :C3
 play :Eb3
