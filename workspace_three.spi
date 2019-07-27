@@ -13,6 +13,6 @@ live_loop :loopSub  do
   play :A5, amp: 0.05
   play :G5, amp: 0.05
   sleep 0.5
-  ##| stop
+  stop
 end
 
