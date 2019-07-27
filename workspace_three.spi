@@ -5,7 +5,7 @@ live_loop :loopSub  do
   use_synth :tb303
   use_bpm 30
   
-  play :E1 , amp: 0.04
+  play :E1 , amp: 0.03
   sleep 0.5
   
   use_synth :fm
