@@ -1,0 +1,11 @@
+# Welcome to Sonic Pi v3.1
+
+live_loop :trigger do
+  with_fx :flanger do
+    use_real_time
+    a, b, c = sync "/osc/trigger/synth"
+    synth :dsaw, note: a, pan: -0.7, sustain: b, cutoff: c, amp: 0.2
+    synth :dsaw, note: a-9, pan: 0.7, sustain: b, cutoff: c, amp: 0.2
+    synth :dsaw, note: a-12, pan: 0.0, sustain: b, cutoff: c, amp: 0.2
+  end
+##| end
