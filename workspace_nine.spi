@@ -3,7 +3,7 @@
 live_loop :flibble do
   use_bpm 60
   
-  sample :bd_haus, rate: 0.2, amp: 1
+  sample :bd_haus, rate: 0.2, amp: 0.8
   sleep 0.25
   
   sample :bd_haus, rate: 0.2, amp: 0.3
@@ -12,7 +12,7 @@ live_loop :flibble do
   sample :bd_haus, rate: 0.2, amp: 0.2
   sleep 0.25/2
   
-  sample :bd_haus, rate: 0.2, amp: 1
+  sample :bd_haus, rate: 0.2, amp: 0.8
   sleep 0.25
   
   sample :bd_haus, rate: 0.2, amp: 0.3
