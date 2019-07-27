@@ -1,7 +1,7 @@
 # 02-NoiseDrum
 
 live_loop :noise do
-  use_bpm 90
+  use_bpm 120
   
   sample :bass_dnb_f, rate: 0.5, amp: 0.5
   sleep 0.5
