@@ -3,10 +3,10 @@
 live_loop :flibble do
   use_bpm 60
   
-  fadein = (ramp *range(0, 2, 0.01))
+  fadein = (ramp *range(2, 2, 0.1))
   kick_cutoffs = range(50,80,0.5).mirror
   live_loop :kick do
-    if (spread 1, 2).tick then
+    if (spread 1, 1).tick then
       sample :bd_tek, amp: fadein.look
     end
     sleep 0.25
