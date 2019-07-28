@@ -5,5 +5,5 @@ live_loop :noise2 do
   sample :bass_voxy_c, rate: 0.195, amp: 0.15
   sleep 1
   
-  ##| stop
+  stop
 end
