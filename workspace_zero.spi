@@ -10,42 +10,41 @@ live_loop :flibble do
       sample :bd_tek, amp: fadein.look, cutoff: kick_cutoffs.look
     end
     sleep 0.25
-    end
-    
-    ##| 1.times do
-    ##|   sample :bd_haus, rate: 0.15, amp: 0.6
-    ##|   sleep 0.5
-    ##|   stop
-    
-    ##|   1.times do
-    ##|     sample :drum_cymbal_closed, rate: 0.25, amp: 0.3
-    ##|     sleep 0.25/2*2
-    ##|   end
-    
-    ##|   1.times do
-    
-    ##|     sample :bd_haus, rate: 0.2, amp: 0.3
-    ##|     sleep 0.25/2
-    
-    ##|     sample :bd_haus, rate: 0.2, amp: rrand(0.2, 0.7)
-    ##|     sleep 0.25/2
-    
-    ##|     sample :bd_haus, rate: 0.2, amp: 0.8
-    ##|     sleep 0.25
-    
-    ##|     ##| stop
-    
-    ##|   end
-    ##| end
-    
-    ##| 1.times do
-    ##|   4.times do
-    ##|     sample :bd_haus, rate: 0.2, amp: rrand(0.2, 0.3)
-    ##|     sleep 0.25/3
-    
-    ##|     sample :bd_haus, rate: 0.2, amp: rrand(0.2, 0.5)
-    ##|     sleep 0.25/3
-    ##|   end
-    ##| end
   end
   
+  ##| 1.times do
+  ##|   sample :bd_haus, rate: 0.15, amp: 0.6
+  ##|   sleep 0.5
+  ##|   stop
+  
+  ##|   1.times do
+  ##|     sample :drum_cymbal_closed, rate: 0.25, amp: 0.3
+  ##|     sleep 0.25/2*2
+  ##|   end
+  
+  ##|   1.times do
+  
+  ##|     sample :bd_haus, rate: 0.2, amp: 0.3
+  ##|     sleep 0.25/2
+  
+  ##|     sample :bd_haus, rate: 0.2, amp: rrand(0.2, 0.7)
+  ##|     sleep 0.25/2
+  
+  ##|     sample :bd_haus, rate: 0.2, amp: 0.8
+  ##|     sleep 0.25
+  
+  ##|     ##| stop
+  
+  ##|   end
+  ##| end
+  
+  ##| 1.times do
+  ##|   4.times do
+  ##|     sample :bd_haus, rate: 0.2, amp: rrand(0.2, 0.3)
+  ##|     sleep 0.25/3
+  
+  ##|     sample :bd_haus, rate: 0.2, amp: rrand(0.2, 0.5)
+  ##|     sleep 0.25/3
+  ##|   end
+  ##| end
+end
