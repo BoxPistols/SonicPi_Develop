@@ -25,5 +25,5 @@ live_loop :flibble2 do
     play chord(:F3, :maj9), amp: 0.6
     sleep 1
   end
-  stop
+  
 end
