@@ -2,7 +2,7 @@
 live_loop :noise2 do
   use_bpm 30
   
-  sample :ambi_choir, rate: 0.295, amp: 0.33
+  ##| sample :ambi_choir, rate: 0.295, amp: 0.33
   sleep 1
   
   ##| stop
