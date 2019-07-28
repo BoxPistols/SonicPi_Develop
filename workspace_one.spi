@@ -6,6 +6,6 @@ live_loop :noise do
   sample :bass_dnb_f, rate: 0.395, amp: 0.15
   sleep 1
   
-  sample :glitch_bass_g, rate: 0.44, amp: 0.2
+  sample :glitch_bass_g, rate: 0.54, amp: 0.2
   sleep 1
 end
