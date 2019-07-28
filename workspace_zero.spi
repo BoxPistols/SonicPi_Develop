@@ -18,8 +18,7 @@ end
 ##|   sleep 0.5
 ##|   stop
 
-##|   1.times
-do
+##|   1.times do
   ##|     sample :drum_cymbal_closed, rate: 0.25, amp: 0.3
   ##|     sleep 0.25/2*2
   ##|   end
