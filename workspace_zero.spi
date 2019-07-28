@@ -13,8 +13,8 @@ end
 live_loop :hihat do
   sample :drum_cymbal_closed, amp: 0.5
   sleep 0.25
-  sample :drum_cymbal_pedal, amp: 0.5
-  sleep 0.25
+  ##| sample :drum_cymbal_pedal, amp: 0.5
+  ##| sleep 0.25
 end
 
 ##| 1.times do
