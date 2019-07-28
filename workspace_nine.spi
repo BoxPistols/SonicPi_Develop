@@ -29,5 +29,5 @@ live_loop :flibble_beat do
   
   sleep 0.25/2
   
-  stop
+  ##| stop
 end
