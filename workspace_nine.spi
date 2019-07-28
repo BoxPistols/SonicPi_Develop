@@ -9,20 +9,24 @@ live_loop :flibble_beat do
   
   sleep 0.25
   
-  sample :bd_haus, rate: 0.2, amp: 0.3,cutoff: kick_cutoffs.look
+  sample :bd_haus, rate: 0.2, amp: 0.3, cutoff: kick_cutoffs.look
   
   sleep 0.25/2
   
-  sample :bd_haus, rate: 0.2, amp: 0.25
+  sample :bd_haus, rate: 0.2, amp: 0.25, cutoff: kick_cutoffs.look
+  
   sleep 0.25/2
   
-  sample :bd_haus, rate: 0.2, amp: 0.56
+  sample :bd_haus, rate: 0.2, amp: 0.56, cutoff: kick_cutoffs.look
+  
   sleep 0.25
   
-  sample :bd_haus, rate: 0.2, amp: 0.18
+  sample :bd_haus, rate: 0.2, amp: 0.18, cutoff: kick_cutoffs.look
+  
   sleep 0.25/2
   
-  sample :bd_haus, rate: 0.2, amp: 0.2
+  sample :bd_haus, rate: 0.2, amp: 0.2, cutoff: kick_cutoffs.look
+  
   sleep 0.25/2
   
   ##| stop
