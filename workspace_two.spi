@@ -25,7 +25,7 @@ live_loop :flibble2 do
     sleep 1
   end
   
-  with_fx :reverb, room: 1 do
-  live_audio :moog
-end
+  ##| with_fx :reverb, room: 1 do
+  ##|   live_audio :moog
+  ##| end
 end
