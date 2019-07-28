@@ -5,5 +5,5 @@ live_loop :noise2 do
   sample :ambi_choir, rate: 0.295, amp: 0.33
   sleep 1
   
-  ##| stop
+  stop
 end
