@@ -3,9 +3,9 @@
 live_loop :flibble do
   use_bpm 30
   
-  fadein = (ramp *range 2, 2, 0.1))
+  ##| fadein = (ramp *range 2, 2, 0.1))
   kick_cutoffs = range(80, 90, 0.8).mirror
-  ##| sample :bd_tek, amp: 1.2, cutoff: kick_cutoffs.look
+  sample :bd_tek, amp: 1.2, cutoff: kick_cutoffs.look
   sleep 0.25
   ##| stop
 end
