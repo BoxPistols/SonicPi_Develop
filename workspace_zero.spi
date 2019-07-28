@@ -1,10 +1,10 @@
 # 01-BassDrum
 
 live_loop :flibble do
-  use_bpm 60
+  use_bpm 30
   
   ##| fadein = (ramp *range(2, 2, 0.1))
-  ##| kick_cutoffs = range(50,80,0.5).mirror 
+  ##| kick_cutoffs = range(50,80,0.5).mirror
   sample :bd_tek, amp: 1
   sleep 0.25
   
