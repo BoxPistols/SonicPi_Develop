@@ -2,7 +2,7 @@
 
 live_loop :midi_piano do
   use_real_time
-  use_sched_ahead_time
+  use_sched_ahead_time 0.5
   note, velocity = sync "/midi/nanokey_keyboard/0/1/note_on"
   synth :piano, note: note, amp: velocity / 127.0
   
