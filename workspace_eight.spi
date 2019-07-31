@@ -5,7 +5,8 @@ live_loop :midi_piano do
   use_sched_ahead_time 0.1
   set_sched_ahead_time! 0.1
   
-  note, velocity = sync "/midi/nanokey_keyboard/0/1/note_on"
+  ##| note, velocity = sync "/midi/nanokey_keyboard/0/1/note_on"
+  note, velocity = sync "/midi/vmidi_1/0/1/note_on"
   synth :sine, note: note, amp: velocity / 127.0
   
   sample :ambi_choir, rate: 0.272, amp: 0.23
