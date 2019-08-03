@@ -30,8 +30,9 @@ puts [60, 64, 70].choose
 
 
 8.times do
-  play rrand [60, 64, 70).choose amp: rrand(0.6, 0.9)
-  sleep [0.5, 0.25].choose
-end
-
-
+  play rrand [60, 64, 70]choose amp: rrand(0.6, 0.9)
+              sleep [0.5, 0.25].choose
+              end
+              
+              
+              
