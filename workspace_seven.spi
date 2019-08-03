@@ -30,10 +30,10 @@ use_bpm 120
 ##| puts rrand(3, 12)
 
 
-8.times do
-  play [60, 64, 67].choose amp: rrand(0.6, 0.9)
-  sleep [0.5, 0.25].choose
-end
+##| 8.times do
+##|   play [60, 64, 67].choose amp: rrand(0.6, 0.9)
+##|   sleep [0.5, 0.25].choose
+##| end
 
 
 loop do
