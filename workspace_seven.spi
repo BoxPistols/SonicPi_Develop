@@ -4,4 +4,4 @@ play :c4, amp: 0.1
 sleep 3
 play :e4, release: 2
 sleep 3
-play :g4
+play :g4, attack: 2
