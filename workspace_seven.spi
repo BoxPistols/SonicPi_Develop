@@ -24,3 +24,4 @@ use_bpm 120
 
 
 puts rand(10)
+    puts rand_i(10)
