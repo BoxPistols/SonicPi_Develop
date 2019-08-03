@@ -24,14 +24,23 @@ use_bpm 120
 
 
 ##| puts rand(10)
-puts rand_i(10)
-puts [60, 64, 70].choose
+##| puts rand_i(10)
+##| puts rand(10)
+##| puts [60, 64, 70].choose
 ##| puts rrand(3, 12)
 
 
 8.times do
   play [60, 64, 67].choose amp: rrand(0.6, 0.9)
   sleep [0.5, 0.25].choose
+end
+
+
+loop do
+  play choose([60, 64, 67])
+  sleep 1
+  play chord(:c, :major).choose
+  sleep 1
 end
 
 
