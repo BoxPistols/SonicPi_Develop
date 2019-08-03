@@ -44,6 +44,6 @@ use_bpm 60
 
 10.times do
   ##| play rrand_i(60, 67)
-  play [60, 64, 67]
+  play [60, 64, 67].choose
   sleep 0.25
 end
