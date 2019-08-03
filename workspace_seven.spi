@@ -1,4 +1,6 @@
 # Welcome to Sonic Pi v3.1
 play 60
+sleep 1
 play 64
+sleep 1
 play 67
