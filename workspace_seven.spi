@@ -42,8 +42,6 @@ loop do
   play chord(:c, :maj9).choose, attack: 0.5, amp: 0.7
   sleep 2
   
-  play chord(:a, :maj11).choose, attack: 0.5, amp: 0.7
-  sleep 2
 end
 
 
