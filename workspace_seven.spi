@@ -10,4 +10,4 @@ use_bpm 120
 
 ##| play chord(:c4, :add9), attack: 2
 
-play_pattern_timed chord(:c3, :m11), 0.1m, attack: 2
+play_pattern_timed chord(:c3, :m11, attack: 2), 0.1m
