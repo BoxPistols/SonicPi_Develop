@@ -7,7 +7,7 @@ live_loop :flibble do
   kick_cutoffs = range(80, 90, 0.8).mirror
   sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
   sleep 0.25
-  ##| stop
+  stop
 end
 
 ##| live_loop :hihat do
