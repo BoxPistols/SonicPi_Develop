@@ -1,6 +1,6 @@
 # Basic
 
-use_bpm 120
+use_bpm 180
 
 ##| play :c4, attack: 2
 ##| sleep 3
