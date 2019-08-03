@@ -40,8 +40,7 @@ loop do
   ##| play choose([60, 64, 67,])
   ##| sleep 1
   play chord(:c, :maj9).choose, attack: 0.5, amp: 0.7
-  sleep 2
-  
+  sleep 1  
 end
 
 
