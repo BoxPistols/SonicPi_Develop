@@ -46,7 +46,7 @@ live_loop :hoge do
   1.times do
     ##| play rrand_i(60, 67)
     ##| play [60, 64, 67].choose, amp: rrand(0.5, 0.8), attack: rrand(0.1, 0.2)
-    play chord(:c, :maj9).choose, amp: rrand(0.5, 0.8), release: rrand(0.4, 0.9), attack: rrand(0.01, 0.05)
+    play chord(:c, :maj9).choose, amp: rrand(0.5, 0.8), release: rrand(0.4, 0.9), attack: rrand(0.01, 0.5)
     sleep [0.5, 0.25].choose
   end
 end
