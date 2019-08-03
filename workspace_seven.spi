@@ -18,5 +18,5 @@ use_bpm 120
 
 live_loop :dev1 do
   use_random_seed 9
-  play_pattern_timed scale(:c3, :diatonic).shuffle, 1, attack: 1
+  play_pattern_timed scale(:c3, :diatonic).shuffle, 0,25, attack: 1
 end
