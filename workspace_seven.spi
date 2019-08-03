@@ -51,10 +51,21 @@ use_bpm 60
 ##| end
 ##| end
 
-notes = [60, 64, 67, 69, 71]
+##| notes = [60, 64, 67, 69, 71]
+##| notes.each  do |note|
+##|   play note
+##|   sleep 0.5
+##| end
+
+notes = [60, 64, 67]
 notes.each do |note|
-  play note
-  sleep 0.5
-end
-
-
+ play note 
+  
+ end
+  
+  
+  
+  
+  
+  
+  
