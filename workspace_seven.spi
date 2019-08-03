@@ -1,6 +1,6 @@
 # Basic
 use_bpm 180
-play :c4
+play :c4, amp:0.1
 sleep 1
 play :e4
 sleep 1
