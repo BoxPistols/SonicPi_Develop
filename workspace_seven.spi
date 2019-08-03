@@ -56,6 +56,5 @@ notes.each do |note|
   play note
   sleep 0.5
 end
-  
-  
-  
+
+
