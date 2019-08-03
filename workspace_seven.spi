@@ -42,9 +42,8 @@ use_bpm 60
 
 ##| play chord(:c, :maj9).choose, attack: 0.5, amp: 0.2
 
-10.times do
+16.times do
   ##| play rrand_i(60, 67)
-  
   play [60, 64, 67, 71].choose
   sleep [0.5, 0.25].choose
 end
