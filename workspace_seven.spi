@@ -1,7 +1,7 @@
 # Basic
 use_bpm 80
 play :c4, amp: 0.1
-sleep 1
+sleep 3
 play :e4, release: 2
 sleep 1
 play :g4
