@@ -16,5 +16,7 @@ use_bpm 120
 
 ##| play_pattern_timed chord(:e3, :m9), 1
 
+live_loop do
 use_random_seed 11
 play_pattern_timed scale(:c3, :diatonic).shuffle, 0.5, attack: 1
+end
