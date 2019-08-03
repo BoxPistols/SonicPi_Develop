@@ -12,6 +12,8 @@ use_bpm 120
 
 ##| play_pattern_timed chord(:c3, :m11), 1
 
-play_pattern_timed scale(:c3, :minor_pentatonic), 0.5
+##| play_pattern_timed scale(:c3, :minor_pentatonic), 0.5
 
 ##| play_pattern_timed chord(:e3, :m9), 1
+
+play_pattern_timed scale(:c3, :m11).shuffle, 1
