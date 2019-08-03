@@ -31,7 +31,7 @@ puts [60, 64, 70].choose
 
 4.times do
   
-  play rrand_i(60, 70)
+  play rrand_i(60, 70), amp: rrand(0.6, 0.9)
 end
 
 
