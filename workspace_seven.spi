@@ -25,6 +25,7 @@ use_bpm 120
 
 ##| puts rand(10)
 puts rand_i(10)
+puts [60, 64, 70].choose
 ##| puts rrand(3, 12)
 
 
