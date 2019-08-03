@@ -60,7 +60,7 @@ use_bpm 60
 notes = [60, 64, 67]
 notes.each do |note|
   play note
-  attack: 1
+  ,attack: 1
   sleep 1
   
 end
