@@ -42,11 +42,20 @@ use_bpm 60
 
 ##| play chord(:c, :maj9).choose, attack: 0.5, amp: 0.2
 
-live_loop :hoge do
-  1.times do
-    ##| play rrand_i(60, 67)
-    ##| play [60, 64, 67].choose, amp: rrand(0.5, 0.8), attack: rrand(0.1, 0.2)
-    play chord(:c, :maj9).choose, amp: rrand(0.5, 0.8), release: rrand(0.4, 0.9), attack: rrand(0.01, 0.08)
-    sleep [0.2, 0.5].choose
-  end
+##| live_loop :hoge do
+##| 1.times do
+##| play rrand_i(60, 67)
+##| play [60, 64, 67].choose, amp: rrand(0.5, 0.8), attack: rrand(0.1, 0.2)
+##| play chord(:c, :maj9).choose, amp: rrand(0.5, 0.8), release: rrand(0.4, 0.9), attack: rrand(0.01, 0.08)
+##| sleep [0.2, 0.5].choose
+##| end
+##| end
+
+notes = [60, 64, 67, 69, 71]
+notes.each do |note|
+  play note
+  sleep 0.5
 end
+  
+  
+  
