@@ -25,6 +25,6 @@ use_bpm 120
 
 ##| puts rand(10)
 ##| puts rand_i(10)
-puts rrand_i(4, 3, 6)
+puts rrand_i(3, 12)
 
 
