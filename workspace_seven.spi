@@ -37,7 +37,7 @@ use_bpm 120
 
 
 loop do
-  play choose([60, 64, 67, 69])
+  play choose([60, 64, 67, 69]), attack: 0.5
   sleep 0.5
   play chord(:c, :madd9).choose
   sleep 0.5
