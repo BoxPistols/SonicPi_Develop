@@ -44,7 +44,7 @@ use_bpm 60
 
 10.times do
   ##| play rrand_i(60, 67)
-  use_random_seed 80
+ 
   play [60, 64, 67, 71].choose
-  sleep 0.25
+  sleep [0.5, 0.25].choose
 end
