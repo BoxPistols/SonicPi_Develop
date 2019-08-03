@@ -43,7 +43,7 @@ loop do
   sleep 2
   
   play chord(:a, :maj11).choose, attack: 0.5, amp: 0.7
-  sleep 1
+  sleep 2
 end
 
 
