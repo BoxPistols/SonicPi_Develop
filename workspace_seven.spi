@@ -1,6 +1,7 @@
-# Welcome to Sonic Pi v3.1
-play 60
+# Basic
+use_bpm 180
+play :c4
 sleep 1
-play 64
+play :e4
 sleep 1
-play 67
+play :g4
