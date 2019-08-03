@@ -37,7 +37,7 @@ use_bpm 120
 
 
 loop do
-  play choose([60, 64, 67])
+  play choose([60, 64, 67, 68])
   sleep 1
   play chord(:c, :major).choose
   sleep 1
