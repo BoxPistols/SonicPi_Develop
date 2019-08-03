@@ -39,7 +39,7 @@ use_bpm 60
 loop do
   play choose([48, 64-12, 67-12]),attack: 0.5, amp: 0.5
   sleep 0.5
-  play chord(:c, :maj9).choose, attack: 0.5, amp: 0.7
+  play chord(:c, :maj9).choose, attack: 0.5, amp: 0.5
   sleep 0.25
 end
 
