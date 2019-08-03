@@ -52,8 +52,8 @@ use_bpm 60
 ##| end
 
 notes = [60, 64, 67, 69, 71]
-notes.each do |note|
-  play note.choose
+notes.each.choose do |note|
+  play note
   sleep 0.5
 end
 
