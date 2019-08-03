@@ -1,7 +1,31 @@
 # Basic
-use_bpm 240
-play :c4, attack: 2
-sleep 3
-play :e4, attack: 2
-sleep 3
-play :g4, attack: 2
+##| use_bpm 240
+##| play :c4, attack: 2
+##| sleep 3
+##| play :e4, attack: 2
+##| sleep 3
+##| play :g4, attack: 2
+
+
+  4.times do
+    play 50, attack: 0.5, release: 0.25
+    sleep 1
+  end
+
+  sleep 2 
+
+ 
+  use_bpm 120 
+  4.times do
+    play 62, attack: 0.5, release: 0.25
+    sleep 1
+  end
+
+  sleep 2
+
+ 
+  use_bpm 240 
+  8.times do
+    play 62, attack: 0.5, release: 0.25
+    sleep 1
+  end
