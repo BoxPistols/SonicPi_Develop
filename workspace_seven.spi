@@ -12,4 +12,4 @@ use_bpm 120
 
 play_pattern_timed chord(:c3, :m11), 1
 
-play_pattern_timed chord(:b3, :m9), 1
+play_pattern_timed chord(:e3, :m9), 1
