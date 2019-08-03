@@ -23,4 +23,4 @@ use_bpm 120
 ##| end
 
 
-    puts rand(10)
+puts rand(10)
