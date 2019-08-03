@@ -13,11 +13,11 @@ live_loop :flibble2 do
     play :E2, amp: 0.2
     sleep 0.25*2
     
-    play chord(:F3, :maj9), amp: 0.5, release: 0.5
+    play chord(:F3, :maj9), amp: 0.5
     play :F2, amp: 0.2
     sleep 0.25/2
     
-    play chord(:F4, :maj9), amp: 0.5
+    play chord(:F4, :maj9), amp: 0.5, release: 0.5
     play :F2, amp: 0.2
     sleep 1
     
