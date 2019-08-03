@@ -20,4 +20,4 @@ live_loop :dev1 do
   use_random_seed 1
   play_pattern_timed scale(:c3, :diatonic).shuffle, 0.5, attack: 1, amp: 0.7
   sleep 1
-  play_pattern_timed (:E3, :major)
+  play_pattern (:E3, :major)
