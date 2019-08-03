@@ -26,7 +26,7 @@ live_loop :flibble2 do
   1.times do
     ##| play chord(:F3, :maj9), amp: 0.5, attack: 0.5
     puts rand(10)
-    sleep 1
+    ##| sleep 1
   end
   
 end
