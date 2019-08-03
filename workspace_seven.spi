@@ -44,6 +44,6 @@ use_bpm 60
 
 16.times do
   ##| play rrand_i(60, 67)
-  play [60, 64, 67, 71].choose, amp: rrand(0.5, 0.8), attack: rrand(0.25, 0.5)
+  play [60, 64, 67, 71].choose, amp: rrand(0.5, 0.8), attack: rrand(0.1, 0.25)
   sleep [0.5, 0.25].choose
 end
