@@ -62,7 +62,7 @@ use_bpm 60
 ##|   play note
 ##|   sleep 1
 ##| end
-
+mc_message "Hello Minecraft from Sonic Pi!" 
 
 use_synth :tb303
 live_loop :squelch do
