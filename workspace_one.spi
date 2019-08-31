@@ -5,7 +5,7 @@ live_loop :melo do
   ##| osc "/log/multi_message"
   
   use_osc "127.0.0.1", 1234
-  osc "/hello/world"
+  osc "/test"
   
   
   with_fx  :reverb do
