@@ -1,32 +1,19 @@
-# 03-Main
+##| use_bpm 15
 
-live_loop :lead do
-  
-end
-
-
-live_loop :main do
-  ##| use_bpm 15
-  
-    
+live_loop :main do  
     play chord(:A3, :madd9), amp: 0.5, attack: 3, release: 4
-    play :A2, amp: 0.2
-    sleep 4
-    
-    play chord(:F3, :maj9), amp: 0.5, attack: 2, release: 2
-    play :F2, amp: 0.2
-    sleep 2
-    
-    play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
-    play :F2, amp: 0.2
-    sleep 4
+  play :A2, amp: 0.2
+  sleep 4
   
-  ##| 1.times do
-  ##|   play chord(:F3, :maj9), amp: 0.5, attack: 0.5
-  ##|   sleep 1
-  ##| end
+  play chord(:F3, :maj9), amp: 0.5, attack: 2, release: 2
+  play :F2, amp: 0.2
+  sleep 2
   
-end
+  play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
+  play :F2, amp: 0.2
+  sleep 4
+  
+  end
 
 
 # 01-BassDrum
