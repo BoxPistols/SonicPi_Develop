@@ -15,10 +15,9 @@ live_loop :main do
 end
 
 live_loop :dr do
-  8.times do
     sample :bd_tek, amp: 0.3
     sleep 1
-  end
+ 
 end
 
 
