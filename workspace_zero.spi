@@ -58,22 +58,25 @@ end
 live_loop :dr do
   sync :main
   ##| fadein = (ramp *range 2, 2, 0.1))
-  kick_cutoffs = range(80, 90, 0.8).mirror
-  sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
-  sleep 0.25
-  ##| stop
-end
-
-
-# 02-NoiseDrum
-live_loop :noise do
-  use_bpm 60
+  times.4 do
+    kick_cutoffs = range(80, 90, 0.8).mirror
+    sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
+    sleep 0.5
+    end
+    ##| stop
+  end
   
-  sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
-  sleep 1
   
-  sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
-  sleep 1
+  # 02-NoiseDrum
+  live_loop :noise do
+    use_bpm 60
+    
+    sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+    sleep 1
+    
+    sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
+    sleep 1
+    
+    ##| stop
+  end
   
-  ##| stop
-end
