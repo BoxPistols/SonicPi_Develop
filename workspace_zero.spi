@@ -26,7 +26,7 @@ end
 live_loop :dr do
   sync :main
   
-  4.times do
+  8.times do
     kick_cutoffs = range(80, 90, 0.8).mirror
     sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
     sleep 0.5
