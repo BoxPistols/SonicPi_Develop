@@ -4,9 +4,10 @@ live_loop :melo do
   ##| osc = use_osc "192.168.9.10", 12345
   ##| osc "/log/multi_message"
   
-  use_osc "192.168.9.10", 1234
+  use_osc "127.0.0.1", 1234
   osc "/hello/world"
   
+ 
   with_fx  :reverb do
     n = rrand_i(4, 8)
     n.times do
