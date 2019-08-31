@@ -10,11 +10,11 @@ live_loop :main do
   
   1.times do
     
-    play chord(:A3, :madd9), amp: 0.5, attack: 0.5
+    play chord(:A3, :madd9), amp: 0.5, attack: 2, release: 4
     play :A2, amp: 0.2
     sleep 4
     
-    play chord(:A3, :m9), amp: 0.5
+    play chord(:A3, :m9), amp: 2, release: 2
     play :E2, amp: 0.2
     sleep 2
     
