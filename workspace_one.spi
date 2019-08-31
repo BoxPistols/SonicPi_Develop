@@ -4,7 +4,7 @@ loop do
   with_fx  :reverb do
     n = rrand_i(8, 32)
     n.times do
-      osc = use_osc "192.168.9.10", 123452
+      osc = use_osc "127.0.0.1", 123452
       osc "/log/multi_message"
       ns = (scale :c2, :mixolydian, num_octaves: 4 )
       play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(0.0, 4.0)
