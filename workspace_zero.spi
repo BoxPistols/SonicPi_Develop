@@ -56,14 +56,12 @@ end
 
 # 01-BassDrum
 live_loop :dr do
-  sync :main
+  ##| sync :main
   ##| fadein = (ramp *range 2, 2, 0.1))
-  4 time do
     kick_cutoffs = range(80, 90, 0.8).mirror
     sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
     sleep 0.5
-  end
-  ##| stop
+
 end
 
 
