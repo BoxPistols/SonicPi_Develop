@@ -8,7 +8,6 @@ end
 live_loop :main do
   ##| use_bpm 15
   
-  1.times do
     
     play chord(:A3, :madd9), amp: 0.5, attack: 3, release: 4
     play :A2, amp: 0.2
@@ -21,8 +20,6 @@ live_loop :main do
     play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
     play :F2, amp: 0.2
     sleep 4
-    
-  end
   
   ##| 1.times do
   ##|   play chord(:F3, :maj9), amp: 0.5, attack: 0.5
