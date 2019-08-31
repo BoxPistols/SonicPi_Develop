@@ -2,7 +2,7 @@ use_bpm 40
 
 loop do
   with_fx  :reverb do
-    n = rrand_i(8, 32)
+    n = rrand_i(8, 64)
     n.times do
       ns = (scale :c2, :mixolydian, num_octaves: 4 )
       play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(0.0, 4.0)
