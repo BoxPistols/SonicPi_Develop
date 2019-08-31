@@ -1,17 +1,21 @@
-use_bpm 60
+use_bpm 120
 
 live_loop :main do
   
-      osc = use_osc "192.168.9.10", 4321
-    osc "/log/multi_message"
+  osc = use_osc "192.168.9.10", 4321
+  osc "/log/multi_message"
   play chord(:A3, :madd9), amp: 0.5, attack: 3, release: 4
   play :A2, amp: 0.2, release: 4
   sleep 4
   
+  osc = use_osc "192.168.9.10", 4321
+  osc "/log/multi_message"
   play chord(:F3, :maj9), amp: 0.5, attack: 3, release: 3
   play :G2, amp: 0.2, release: 3
   sleep 4
   
+    osc = use_osc "192.168.9.10", 4321
+  osc "/log/multi_message"
   play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
   play :F2, amp: 0.2, release: 4
   sleep 8
