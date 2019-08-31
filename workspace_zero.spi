@@ -15,7 +15,7 @@ live_loop :main do
 end
 
 live_loop :dr do
-  use_bpm: 30
+  use_bpm 30
   sync :main
   sample :bd_tek, amp: 0.3
   sleep 1
