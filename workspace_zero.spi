@@ -14,10 +14,10 @@ live_loop :main do
   sleep 8
 end
 
-live_loop :dr do
-  sample :bd_tek, amp: 0.3
-  sleep 1  
-end
+##| live_loop :dr do
+##|   sample :bd_tek, amp: 0.3
+##|   sleep 1
+##| end
 
 
 # 01-BassDrum
