@@ -5,32 +5,36 @@ live_loop :main do
   
   play chord(:A3, :madd9), amp: 0.5, attack: 0.5
   play :A2, amp: 0.2
+  sample :bd_tek, amp: 0.8
   sleep 1
   
   play chord(:A3, :m9), amp: 0.5
   play :E2, amp: 0.2
+  sample :bd_tek, amp: 0.8
   sleep 1
   
   play chord(:F3, :maj9), amp: 0.5
   play :F2, amp: 0.2
+  sample :bd_tek, amp: 0.8
   sleep 1
   
   play chord(:F4, :maj9), amp: 0.5, release: 0.5
   play :F2, amp: 0.2
+  sample :bd_tek, amp: 0.8
   sleep 1
   
 end
 
 
 # 01-BassDrum
-live_loop :dr do
-  sync :main
+##| live_loop :dr do
+##|   sync :main
   
-    kick_cutoffs = range(80, 90, 0.8).mirror
-    sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
-    sleep 0.5
+##|   kick_cutoffs = range(80, 90, 0.8).mirror
+##|   sample :bd_tek, amp: 0.8, cutoff: kick_cutoffs.look
+##|   sleep 0.5
   
-end
+##| end
 
 
 # 04-Syb
