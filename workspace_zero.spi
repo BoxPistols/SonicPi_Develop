@@ -2,11 +2,11 @@ use_bpm 60
 
 live_loop :main do
   play chord(:A3, :madd9), amp: 0.5, attack: 3, release: 4
-  play :A2, amp: 0.2,release: 4
+  play :A2, amp: 0.2, release: 4
   sleep 4
   
   play chord(:F3, :maj9), amp: 0.5, attack: 3, release: 3
-  play :G2, amp: 0.2
+  play :G2, amp: 0.2, release: 3
   sleep 4
   
   play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
