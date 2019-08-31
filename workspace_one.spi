@@ -3,8 +3,14 @@ use_bpm 40
 live_loop :melo do
   osc = use_osc "192.168.9.10", 12345
   osc "/log/multi_message"
+  
+  use_osc "192.168.9.10", 123456
+  osc "/hello/world"
+  
+  
+  
   with_fx  :reverb do
-    n = rrand_i(8, 32)
+    n = rrand_i(1, 2)
     n.times do
       ns = (scale :c2, :mixolydian, num_octaves: 4 )
       play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(0.0, 4.0)
