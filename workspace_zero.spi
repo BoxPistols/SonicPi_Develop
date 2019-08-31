@@ -55,7 +55,7 @@ end
 
 
 # 01-BassDrum
-live_loop :flibble do
+live_loop :dr do
   sync :main
   
   ##| fadein = (ramp *range 2, 2, 0.1))
