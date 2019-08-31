@@ -13,18 +13,14 @@ live_loop :main do
     play chord(:A3, :madd9), amp: 0.5, attack: 3, release: 4
     play :A2, amp: 0.2
     sleep 4
-    
-    play chord(:A3, :m9), amp: 0.3, release: 2
-    play :E2, amp: 0.2
-    sleep 2
-    
+       
     play chord(:F3, :maj9), amp: 0.5, attack: 2, release: 2
     play :F2, amp: 0.2
     sleep 2
     
-    play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 6, release: 8
+    play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
     play :F2, amp: 0.2
-    sleep 8
+    sleep 4
     
   end
   
