@@ -15,37 +15,40 @@ live_loop :main do
 end
 
 live_loop :dr do
-  use_bpm 30
-  sync :main
-  sample :bd_tek, amp: 0.3
-  sleep 1
-end
-
-
-# 01-BassDrum
-
-# 04-Syb
-##| live_loop :loopSub  do
-##|   use_synth :tb303
-##|   use_bpm 15
-
-##|   play :G3, amp: 0.001
-##|   sleep 0.25
-
-##|   use_synth :fm
-##|   play :C4, amp: 0.05
-##|   play :A5, amp: 0.05
-##|   play :G5, amp: 0.05
-##|   sleep 0.25
-##| end
-
-
-# 02-NoiseDrum
-live_loop :noise do
-  sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
-  sleep 1
+  8.times do
+    use_bpm 30
+    sync :main
+    sample :bd_tek, amp: 0.3
+    sleep 1
+    end
+  end
   
-  ##| sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
-  ##| sleep 1
   
-end
+  # 01-BassDrum
+  
+  # 04-Syb
+  ##| live_loop :loopSub  do
+  ##|   use_synth :tb303
+  ##|   use_bpm 15
+  
+  ##|   play :G3, amp: 0.001
+  ##|   sleep 0.25
+  
+  ##|   use_synth :fm
+  ##|   play :C4, amp: 0.05
+  ##|   play :A5, amp: 0.05
+  ##|   play :G5, amp: 0.05
+  ##|   sleep 0.25
+  ##| end
+  
+  
+  # 02-NoiseDrum
+  live_loop :noise do
+    sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+    sleep 1
+    
+    ##| sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
+    ##| sleep 1
+    
+  end
+  
