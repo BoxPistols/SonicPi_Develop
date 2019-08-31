@@ -18,36 +18,39 @@ end
 # 01-BassDrum
 live_loop :dr do
   sync :main
-  ##| kick_cutoffs = range(80, 90, 0.8).mirror
-  sample :bd_tek, amp: 0.3
-  ##| , cutoff: kick_cutoffs.look
-  sleep 0.25
-end
-
-# 04-Syb
-##| live_loop :loopSub  do
-##|   use_synth :tb303
-##|   use_bpm 15
-
-##|   play :G3, amp: 0.001
-##|   sleep 0.25
-
-##|   use_synth :fm
-##|   play :C4, amp: 0.05
-##|   play :A5, amp: 0.05
-##|   play :G5, amp: 0.05
-##|   sleep 0.25
-##| end
-
-
-# 02-NoiseDrum
-##| live_loop :noise do
-##|   use_bpm 60
-
-##|   sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
-##|   sleep 1
-
-##|   sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
-##|   sleep 1
-
-##| end
+  16.time do
+    ##| kick_cutoffs = range(80, 90, 0.8).mirror
+    sample :bd_tek, amp: 0.3
+    ##| , cutoff: kick_cutoffs.look
+    sleep 0.25
+    end
+  end
+  
+  # 04-Syb
+  ##| live_loop :loopSub  do
+  ##|   use_synth :tb303
+  ##|   use_bpm 15
+  
+  ##|   play :G3, amp: 0.001
+  ##|   sleep 0.25
+  
+  ##|   use_synth :fm
+  ##|   play :C4, amp: 0.05
+  ##|   play :A5, amp: 0.05
+  ##|   play :G5, amp: 0.05
+  ##|   sleep 0.25
+  ##| end
+  
+  
+  # 02-NoiseDrum
+  ##| live_loop :noise do
+  ##|   use_bpm 60
+  
+  ##|   sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+  ##|   sleep 1
+  
+  ##|   sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
+  ##|   sleep 1
+  
+  ##| end
+  
