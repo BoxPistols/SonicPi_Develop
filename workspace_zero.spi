@@ -17,7 +17,7 @@ end
 
 # 01-BassDrum
 live_loop :dr do
-  kick_cutoffs = range(80, 90, 0.8).mirror
+  ##| kick_cutoffs = range(80, 90, 0.8).mirror
   sample :bd_tek, amp: 0.5, cutoff: kick_cutoffs.look
   sleep 1
 end
