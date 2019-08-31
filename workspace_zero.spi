@@ -23,10 +23,10 @@ live_loop :noise do
 end
 
 
-live_loop :dr do 
+live_loop :dr do
   sample :bd_tek, amp: 0.3
   sleep 1
-  ##| stop
+  stop
 end
 
 
