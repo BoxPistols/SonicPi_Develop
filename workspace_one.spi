@@ -4,7 +4,7 @@ loop do
   with_fx  :reverb do
     n = rrand_i(8, 32)
     n.times do
-      ns = (scale :c2, :messiaen1, num_octaves: 5 )
+      ns = (scale :c2, :mixolydian, num_octaves: 5 )
       play ns.choose, amp: rrand(0, 0.5), pan: rrand(-1.0, 1.0), release: rrand(0.0, 4.0)
       sleep 0.15
     end
