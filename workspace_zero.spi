@@ -16,7 +16,6 @@ end
 
 live_loop :dr do
   8.times do
-    sync :main
     sample :bd_tek, amp: 0.3
     sleep 1
   end
