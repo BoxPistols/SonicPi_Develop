@@ -1,6 +1,6 @@
 use_bpm 40
 
-loop do
+loop :melo do
   with_fx  :reverb do
     n = rrand_i(8, 32)
     n.times do
