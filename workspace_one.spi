@@ -26,6 +26,11 @@ live_loop :melo do
 end
 
 
+live_loop :noise do
+  sample :mehackit_phone3, amp: 0.3
+  sleep 1
+end
+
 ##| live_loop :noise do
 ##|   sample :mehackit_phone3, amp: 0.4, rate: rrand(0.2, 0.4), rate: 0.3
 ##|   sleep 1
