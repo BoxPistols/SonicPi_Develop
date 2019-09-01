@@ -32,7 +32,7 @@ end
 
 
 live_loop :noise do
-  sample :bass_dnb_f, amp: 0.3, decay: 0.1, rate: 0.3´1
+  sample :bass_dnb_f, amp: 0.3, decay: 0.1, rate: 0.1
   sleep 1
 end
 
