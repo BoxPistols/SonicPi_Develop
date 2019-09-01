@@ -5,4 +5,6 @@ live_loop :set do
   sleep 1
   
   osc "/trigger",1
+    play :g4
+  sleep 1
 end
