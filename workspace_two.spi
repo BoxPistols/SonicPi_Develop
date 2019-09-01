@@ -1,2 +1,6 @@
-use_osc "172.20.0.15", 7400
-osc "/trigger",10
+live_loop :set do
+  use_osc "172.20.0.15", 7400
+  osc "/trigger",10
+  play: c4
+  sleep 1
+end
