@@ -13,7 +13,7 @@ live_loop :melo do
   with_fx :reverb do
     n = rrand_i(4, 8)
     n.times do
-      osc "/trigger", 1;
+      osc "/trigger", rrand_i(99,100)
       ns = (scale :c2, :mixolydian, num_octaves: 4 )
       play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(1.0, 4.0)
       sleep 0.25
