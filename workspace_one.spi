@@ -25,9 +25,9 @@ live_loop :melo do
   
 end
 
-live_loop :noise do
+live_loop :noise do¥
   sample :mehackit_phone3, amp: 0.5, decay: 0.2, rate: 0.3
-  sleep 1
+  sleep 1¬
 end
 
 
