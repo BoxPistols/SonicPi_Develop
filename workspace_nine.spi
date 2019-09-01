@@ -1,7 +1,6 @@
 # 01-BassDrum
 
 live_loop :flibble_beat do
-  sync :main
   use_bpm 60
   
   kick_cutoffs = range(75, 90, 0.8).mirror
