@@ -1,23 +1,13 @@
-use_bpm 120
+# 02-NoiseDrum
 
-live_loop :melo do
-  ##| osc = use_osc "192.168.9.10", 12345
-  ##| osc "/log/multi_message"
+live_loop :noise do
+  use_bpm 60
   
-  use_osc "172.20.0.15", 7400
-  osc "/trigger", 10
+  sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+  sleep 1
   
-  ##| use_osc "127.0.0.1", 4321
-  ##| osc "/log/multi_message"
+  sample :glitch_bass_g, rate: 0.34, amp: 0.12, attack: 0.5
+  sleep 1
   
-  with_fx :reverb do
-    n = rrand_i(4, 8)
-    n.times do
-      ns = (scale :c2, :mixolydian, num_octaves: 4 )
-      play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(1.0, 4.0)
-      sleep 0.25
-    end
-    sleep rrand(0.5, 2.0)
-  end
-  
+  ##| stop
 end
