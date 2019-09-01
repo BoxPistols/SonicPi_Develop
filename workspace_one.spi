@@ -1,29 +1,29 @@
 use_bpm 80
 
-live_loop :melo do
-  ##| osc = use_osc "192.168.9.10", 12345
-  ##| osc "/log/multi_message"
+##| live_loop :melo do
+##|   ##| osc = use_osc "192.168.9.10", 12345
+##|   ##| osc "/log/multi_message"
   
-  use_osc "172.20.0.15", 7400
-  osc "/trigger", rrand_i(99,100)
+##|   use_osc "172.20.0.15", 7400
+##|   osc "/trigger", rrand_i(99,100)
   
-  ##| use_osc "127.0.0.1", 4321
-  ##| osc "/log/multi_message"
+##|   ##| use_osc "127.0.0.1", 4321
+##|   ##| osc "/log/multi_message"
   
-  with_fx :reverb do
-    n = rrand_i(4, 8)
-    osc "/trigger", rrand_i(99,100)
+##|   with_fx :reverb do
+##|     n = rrand_i(4, 8)
+##|     osc "/trigger", rrand_i(99,100)
     
-    n.times do
-      ns = (scale :c2, :mixolydian, num_octaves: 4 )
-      play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(1.0, 4.0)
-      osc "/trigger", rrand_i(99,100)
-      sleep 0.25
-    end
-    sleep rrand(0.5, 2.0)
-  end
+##|     n.times do
+##|       ns = (scale :c2, :mixolydian, num_octaves: 4 )
+##|       play ns.choose, amp: rrand(0, 0.3), pan: rrand(-1.0, 1.0), release: rrand(1.0, 4.0)
+##|       osc "/trigger", rrand_i(99,100)
+##|       sleep 0.25
+##|     end
+##|     sleep rrand(0.5, 2.0)
+##|   end
   
-end
+##| end
 
 live_loop :noise do
   sample :mehackit_phone3, amp: rrand(0.2, 0.6), decay: 0.15, rate: rrand(0.2, 0.4)
