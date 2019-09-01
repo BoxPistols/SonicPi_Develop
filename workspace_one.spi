@@ -5,7 +5,7 @@ live_loop :melo do
   ##| osc "/log/multi_message"
   
   use_osc "172.20.0.15", 7400
-  osc "/trigger",100
+  osc "/trigger", rrand_i(90,100)
   
   ##| use_osc "127.0.0.1", 4321
   ##| osc "/log/multi_message"
