@@ -27,7 +27,7 @@ end
 
 
 live_loop :noise do
-  sample :mehackit_phone3, amp: 0.3, rata: 0.3
+  sample :mehackit_phone3, amp: 0.3, rata: 0.3, decay: 0.3
   sleep 1
 end
 
