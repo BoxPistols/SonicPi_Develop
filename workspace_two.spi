@@ -3,4 +3,7 @@ live_loop :set do
   osc "/trigger",10
   play :c4
   sleep 1
+  
+   use_osc "172.20.0.15", 7400
+  osc "/trigger",1
 end
