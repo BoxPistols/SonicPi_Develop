@@ -8,9 +8,6 @@ live_loop :melo do
     use_osc "172.20.0.15", 7400
     osc "/trigger", rrand_i(99,100)
     
-    ##| use_osc "127.0.0.1", 4321
-    ##| osc "/log/multi_message"
-    
     with_fx :reverb do
       n = rrand_i(4, 8)
       osc "/trigger", rrand_i(99,100)
@@ -21,6 +18,7 @@ live_loop :melo do
         osc "/trigger", rrand_i(99,100)
         sleep 0.25
       end
+      
       sleep rrand(0.5, 2.0)
     end
   end
