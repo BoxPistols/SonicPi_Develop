@@ -11,8 +11,8 @@ live_loop :main do
   
   sleep 4
   
-  osc = use_osc "192.168.9.10", 12345
-  osc "/log/multi_message"
+  osc = use_osc "172.20.0.15", 12345
+  osc "/test"
   
   play chord(:F3, :maj9), amp: 0.5, attack: 3, release: 3
   play :G2, amp: 0.2, release: 3
@@ -20,8 +20,10 @@ live_loop :main do
   
   sleep 4
   
-  osc = use_osc "192.168.9.10", 12345
-  osc "/log/multi_message"
+   osc = use_osc "172.20.0.15", 12345
+  osc "/test"
+  ##| osc = use_osc "192.168.9.10", 12345
+  ##| osc "/log/multi_message"
   
   play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
   play :F2, amp: 0.2, release: 4
