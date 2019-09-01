@@ -7,6 +7,8 @@ live_loop :main do
   
   play chord(:A3, :madd9), amp: 0.5, attack: 3, release: 4
   play :A2, amp: 0.2, release: 4
+  sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+  
   sleep 4
   
   osc = use_osc "192.168.9.10", 12345
@@ -14,6 +16,8 @@ live_loop :main do
   
   play chord(:F3, :maj9), amp: 0.5, attack: 3, release: 3
   play :G2, amp: 0.2, release: 3
+  sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+  
   sleep 4
   
   osc = use_osc "192.168.9.10", 12345
@@ -21,6 +25,8 @@ live_loop :main do
   
   play chord(:F4, :maj9), amp: 0.5, release: 0.5, attack: 4, release: 4
   play :F2, amp: 0.2, release: 4
+  sample :bass_dnb_f, rate: 0.28, amp: 0.15, attack: 0.4
+  
   sleep 8
 end
 
