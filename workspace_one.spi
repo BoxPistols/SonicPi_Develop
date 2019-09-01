@@ -22,3 +22,8 @@ live_loop :melo do
   end
   
 end
+
+
+live_loop :noise do
+sample :mehackit_phone3, amp: 0.3  
+end
