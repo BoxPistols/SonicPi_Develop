@@ -27,7 +27,6 @@ end
 
 
 live_loop :noise do
-  ##| sync :melo
   sample :mehackit_phone3, amp: 0.3, rata: 0.2, decay: 0.3
   sleep 1
 end
