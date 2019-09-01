@@ -26,15 +26,18 @@ use_bpm 80
 ##| end
 
 live_loop :noise do
-  sample :mehackit_phone3, amp: rrand(0.2, 0.6), decay: 0.15, rate: rrand(0.2, 0.4)
+  ##| sample :mehackit_phone3, amp: rrand(0.2, 0.6), decay: 0.15, rate: rrand(0.2, 0.4)
+  ##| sleep 1
+  
+   sample :mehackit_phone3,
   sleep 1
 end
 
 
-live_loop :train do
-  sample :bass_dnb_f, amp: 0.3, decay: 0.1, rate: 0.1
-  sleep 1
-end
+##| live_loop :train do
+##|   sample :bass_dnb_f, amp: 0.3, decay: 0.1, rate: 0.1
+##|   sleep 1
+##| end
 
 
 ##| live_loop :noise do
