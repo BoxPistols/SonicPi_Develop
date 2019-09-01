@@ -17,6 +17,7 @@ live_loop :melo do
         ns = (scale :c2, :mixolydian, num_octaves: 4 )
         play ns.choose, amp: rrand(0.1, 0.4), pan: rrand(-1.0, 1.0), attack: rrand(0.1,0.5), release: rrand(1.0, 4.0)
         osc "/trigger", rrand_i(99,100)
+        osc "/trigger2", rrand_i(99,100)
         sleep 0.25
       end
       
