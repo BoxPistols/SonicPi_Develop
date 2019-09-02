@@ -2,7 +2,7 @@ use_bpm 80
 
 live_loop :melo do
   with_fx :reverb, room: 1 do
-    use_osc "172.20.0.15", 7400
+    use_osc "192.168.1.10", 7400
     osc "/trigger", rrand_i(99,100)
     osc "/send", rrand_i(99,100)
     
@@ -24,7 +24,7 @@ live_loop :melo do
 end
 
 live_loop :drum do
-  use_osc "1270.0.1", 7400
+  use_osc "192.168.1.10", 7400
   osc "/trigger", 100
   sample :drum_bass_soft
   sleep 1
