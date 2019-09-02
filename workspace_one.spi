@@ -30,10 +30,10 @@ live_loop :drum do
   sample :drum_bass_soft
   sleep 1
   osc "/beat", 99
-  osc "/trigger", 100 
+  osc "/trigger", 100
   sample :drum_bass_soft
   sleep 1
-  ##| stop
+  stop
 end
 
 # Work
