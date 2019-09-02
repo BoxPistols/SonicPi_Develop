@@ -23,6 +23,11 @@ live_loop :melo do
   end
 end
 
+live_loop :drum do
+  sample :drum_bass_soft, amp: rrand(0.2, 0.7), decay: 0.15, rate: rrand(0.2, 0.4)
+  sleep 1
+end
+
 live_loop :noise do
   sample :mehackit_phone3, amp: rrand(0.2, 0.7), decay: 0.15, rate: rrand(0.2, 0.4)
   sleep 1
