@@ -28,7 +28,7 @@ live_loop :drum do
   osc "/beat", 100
   sample :drum_bass_soft
   sleep 1
-  stop
+  ##| stop
 end
 
 live_loop :noise do
