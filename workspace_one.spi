@@ -26,7 +26,7 @@ end
 live_loop :drum do
   use_osc "192.168.1.10", 7400
   osc "/beat", 100
-     osc "/trigger", rrand_i(99,100)
+  osc "/trigger", 100
   sample :drum_bass_soft
   sleep 1
   osc "/beat", 99
