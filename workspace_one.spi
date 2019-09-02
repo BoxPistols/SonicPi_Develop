@@ -26,20 +26,22 @@ end
 live_loop :drum do
   use_osc "192.168.1.10", 7400
   osc "/beat", 100
+     osc "/trigger", rrand_i(99,100)
   sample :drum_bass_soft
   sleep 1
-   osc "/beat", 99
+  osc "/beat", 99
   sample :drum_bass_soft
   sleep 1
   ##| stop
 end
 
+# Work
 live_loop :noise do
   sample :mehackit_phone3, amp: rrand(0.2, 0.7), decay: 0.15, rate: rrand(0.2, 0.4)
   sleep 1
 end
 
-
+# 汽車
 live_loop :train do
   sample :bass_dnb_f, amp: rrand(0.1, 0.8), decay: rrand(0.1, 0.3), rate: rrand(0.1, 0.3)
   sleep 1
