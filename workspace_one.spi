@@ -24,6 +24,7 @@ live_loop :melo do
 end
 
 live_loop :drum do
+    osc "/trigger", rrand_i(100)
   sample :drum_bass_soft
   sleep 1
 end
