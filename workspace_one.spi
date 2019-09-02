@@ -30,7 +30,7 @@ end
 
 
 live_loop :train do
-  sample :bass_dnb_f, amp: rrand(0.1, 0.4), decay: rrand(0.1, 0.3), rate: rrand(0.1, 0.3)
+  sample :bass_dnb_f, amp: rrand(0.1, 0.8), decay: rrand(0.1, 0.3), rate: rrand(0.1, 0.3)
   sleep 1
 end
 
